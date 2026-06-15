@@ -8,14 +8,18 @@
     ```bash
     cd Global-Mobility-Application-Analyzer
     ```
+3. Initialize your project using below command.
+    ```bash
+    uv init
+    ```
 3. Create and activate a virtual environment:
     ```bash
-    conda create -n application python=3.8 -y
+    uv add venv
     ```
     ```bash
-    conda activate application
+    source .venv/bin/activate
     ```
 4. Install the required dependencies:
     ```bash
-    pip install -r requirements.txt
+    uv add -r requirements.txt
     ```
