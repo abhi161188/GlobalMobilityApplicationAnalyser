@@ -2,7 +2,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/entbappy/Global-Mobility-Application-Analyzer.git
+   git clone https://github.com/abhi161188/GlobalMobilityApplicationAnalyser.git
     ```
 2. Navigate to the project directory:
     ```bash
