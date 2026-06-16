@@ -29,3 +29,11 @@ dependencies = [
     "uvicorn>=0.49.0",
     "xgboost>=3.2.0",
 ]
+
+[dependency-groups]
+dev = [
+    "globalmobilityapplicationanalyser",
+]
+
+[tool.uv.sources]
+globalmobilityapplicationanalyser = { workspace = true }
