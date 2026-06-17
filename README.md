@@ -1,3 +1,13 @@
+## Workflow
+
+1. constant
+2. config_entity
+3. artifacte_entity
+4. component
+5. pipeline
+6. app.py / demo.py
+
+
 ## How to run?
 
 1. Clone the repository:
@@ -23,3 +33,7 @@
     ```bash
     uv add -r requirements.txt
     ```
+### Export the environment variable
+```bash
+export MONGODB_URL = "your_mongodb_connection_string
+```
