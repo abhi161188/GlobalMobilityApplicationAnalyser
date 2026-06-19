@@ -98,7 +98,7 @@ def drop_columns(df: DataFrame, cols: list) -> DataFrame:
     logging.info("Entered drop_columns method of utils")
     
     try:
-        df = df.drop(columns=cols, axis=1)
+        df = df.drop(cols, axis=1)
         
         logging.info("Exited the drop_columns method of utils")
         
