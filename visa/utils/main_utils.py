@@ -28,7 +28,7 @@ def write_yaml_file(file_path: str, content: object, replace: bool = False) -> N
         raise USvisaException(e, sys) from e
     
 def load_object(file_path: str) -> object:
-    logging.ingo("Entered the load_object method of utils")
+    logging.info("Entered the load_object method of utils")
     
     try:
         with open(file_path, "rb") as file_obj:
@@ -69,7 +69,7 @@ def load_numpy_array_data(file_path: str) -> np.array:
     """
     try:
         with open(file_path, 'rb') as file_obj:
-            return np.load(file_obj)
+            return np.load(file_obj, allow_pickle=True)
     except Exception as e:
         raise USvisaException(e, sys) from e
     
